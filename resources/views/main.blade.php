@@ -65,6 +65,7 @@
 
 <div class="cotainer">
 
+    @yield('content')
 
 </div>
 
