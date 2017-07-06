@@ -20,4 +20,8 @@ class PagesController extends Controller {
 
     }
 
+    public function getRanking(){
+        return view('pages/ranking');
+    }
+
 }
