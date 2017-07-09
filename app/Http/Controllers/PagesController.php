@@ -24,4 +24,8 @@ class PagesController extends Controller {
         return view('pages/ranking');
     }
 
+    public function getLogin(){
+        return view('pages/login');
+    }
+
 }

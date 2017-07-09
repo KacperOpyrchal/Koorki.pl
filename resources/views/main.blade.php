@@ -55,7 +55,7 @@
                         <li><a href="#">Portfel</a></li>
                         <li><a href="#">O mnie</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#">Wyloguj się</a></li>
+                        <li><a href="/login">Zaloguj się</a></li>
                     </ul>
                 </li>
             </ul>
