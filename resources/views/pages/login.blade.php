@@ -19,9 +19,13 @@
                     <label name="subject">Hasło: </label>
                     <input type="password" id="subject" name="subject" class="form-control">
                 </div>
-                
-                <input type="submit" value="Wyślij" class="btn btn-success">
-            </form>
+                    <div class = "form-group">
+                    <input type="submit" value="Wyślij" class="btn btn-success">
+                </div>
+
+                <input type="submit" value="Zarejstruj sie" >
+                </form>
+
 
         </div>
     </div>
