@@ -1,10 +1,12 @@
 @extends('main')
 
+@section('title', '| Strona główna')
+
 @section('content')
     <div class="row">
         <div class="col-md-12">
             <div class="jumbotron">
-                <h1> Witamy na Koorki.pl! </h1>
+                <h1> Witamy na Koorki.pl! :) </h1>
                 <p> Korki koreczki </p>
                 <p><a class="btn btn-primary btn-lg" href="#" role="button">Dowiedz się więcej</a></p>
             </div>
@@ -17,6 +19,7 @@
     </div>
 
     <div class="row">
+
 
         <div class="col-md-8">
             <div class="tasks">
