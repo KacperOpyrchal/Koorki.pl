@@ -13,8 +13,8 @@ Route::get('/ranking', 'PagesController@getRanking');
 Route::get('users', function (){
     return User::all();
     /*return User::create([
-        "name" => "Jan",
-        "email" => "jan@email.com",
+        "name" => "Karol",
+        "email" => "jakis@email.com",
         "password" => bcrypt("jakieshaslo")
     ]);*/
 });
