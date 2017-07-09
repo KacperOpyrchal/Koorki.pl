@@ -24,40 +24,77 @@
         <div class="col-md-8">
             <div class="tasks">
                 <h3>Zlecenie</h3>
-                <p> Jakies zlecenie na korki czy cos</p>
+                <p>imię:</p>
+                <p>nazwisko:</p>
+                <p>nick:</p>
+                <p>kategoria:</p>
+                <p>poziom:</p>
+                <p>kwota:</p>
+                <p>czas wykonania:</p>
                 <a class="btn btn-success" href="#" role="button">Szczegóły</a>
+                <a class="btn btn-success" href="#" role="button">Informacje o wrzucającym</a>
             </div>
 
             <hr>
 
             <div class="tasks">
                 <h3>Zlecenie</h3>
-                <p> Jakies zlecenie na korki czy cos</p>
+                <p>imię:</p>
+                <p>nazwisko:</p>
+                <p>nick:</p>
+                <p>kategoria:</p>
+                <p>poziom:</p>
+                <p>kwota:</p>
+                <p>czas wykonania:</p>
                 <a class="btn btn-success" href="#" role="button">Szczegóły</a>
+                <a class="btn btn-success" href="#" role="button">Informacje o wrzucającym</a>
             </div>
 
             <hr>
 
             <div class="tasks">
                 <h3>Zlecenie</h3>
-                <p> Jakies zlecenie na korki czy cos</p>
+                <p>imię:</p>
+                <p>nazwisko:</p>
+                <p>nick:</p>
+                <p>kategoria"</p>
+                <p>poziom:</p>
+                <p>kwota:</p>
+                <p>czas wykonania:</p>
                 <a class="btn btn-success" href="#" role="button">Szczegóły</a>
+                <a class="btn btn-success" href="#" role="button">Informacje o wrzucającym</a>
             </div>
 
             <hr>
 
             <div class="tasks">
                 <h3>Zlecenie</h3>
-                <p> Jakies zlecenie na korki czy cos</p>
+                <p>imię:</p>
+                <p>nazwisko:</p>
+                <p>nick:</p>
+                <p>zlecenie:</p>
+                <p>kategoria:</p>
+                <p>poziom:</p>
+                <p>kwota:</p>
+                <p>czas wykonania:</p>
                 <a class="btn btn-success" href="#" role="button">Szczegóły</a>
+                <a class="btn btn-success" href="#" role="button">Informacje o wrzucającym</a>
             </div>
 
             <hr>
 
             <div class="tasks">
                 <h3>Zlecenie</h3>
-                <p> Jakies zlecenie na korki czy cos</p>
+                <p>imię:</p>
+                <p>nazwisko:</p>
+                <p>nick:</p>
+                <p>zlecenie:</p>
+                <p>kategoria:</p>
+                <p>poziom:</p>
+                <p>kwota:</p>
+                <p>czas wykonania:</p>
                 <a class="btn btn-success" href="#" role="button">Szczegóły</a>
+                <a class="btn btn-success" href="#" role="button">Informacje o wrzucającym</a>
             </div>
         </div>
 
