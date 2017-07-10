@@ -23,7 +23,7 @@
                     <input type="submit" value="Wyślij" class="btn btn-success">
                 </div>
 
-                <a value="Zarejstruj się" class="btn btn-primary" href="/" > Zarejestruj się </a>
+                <a value="Zarejstruj się" class="btn btn-primary" href="/" >  Zarejestruj się </a>
 
 
                 </form>
