@@ -23,7 +23,9 @@
                     <input type="submit" value="Wyślij" class="btn btn-success">
                 </div>
 
-                <input type="submit" value="Zarejstruj sie" >
+                <input type="button" value="Zarejstruj się" onclick="window.location.href='http://koorki.pl/' ">
+
+
                 </form>
 
 
