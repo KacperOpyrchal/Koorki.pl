@@ -11,7 +11,9 @@ Route::get('/about', 'PagesController@getAbout');
 Route::get('/ranking', 'PagesController@getRanking');
 
 Route::get('/login', 'PagesController@getLogin');
+
 Route::get('/register', 'PagesController@getRegister');
+
 Route::resource('orders', 'OrderController');
 
 Route::get('users', function (){

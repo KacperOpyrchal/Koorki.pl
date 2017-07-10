@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-8 col-lg-offset-2">
             <h1>O nas</h1>
             <p>Nasza strona przeznaczona jest dla osób, które oczkują pomocy i dla tych, którzy są w stanie jej udzielić.</p>
             <p>Portal koorki.pl różni się od pozostałych stron internetowych tym, że zapewniamy połączenie video między dwoma osobami,</p>

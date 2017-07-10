@@ -27,5 +27,7 @@ class PagesController extends Controller {
     public function getLogin(){
         return view('pages/login');
     }
-
+    public function getRegister(){
+        return view('pages/register');
+    }
 }
