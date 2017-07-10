@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Order;
 use Illuminate\Http\Request;
 
 class OrderController extends Controller
@@ -16,6 +17,19 @@ class OrderController extends Controller
     }
 
     public function store(Request $request){
+        $this->validate($request, array(
+            'title' => 'required|max:255',
+            'body' => 'required',
+        ));
+
+        $order = new Order();
+        $order->title = $request->title;
+        $order->body = $request->body;
+        $order->tags = 'cos';
+
+        $order->save();
+
+        return redirect()->route('orders.show', $order->id);
     }
 
     public function show($id){

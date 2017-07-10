@@ -12,6 +12,11 @@
                     </div>
                     <div class="panel-body">
                         <form role="form">
+
+                            <div class="form-group">
+                                <input type="email" name="email" id="email" class="form-control input-sm" placeholder="Nick: ">
+                            </div>
+
                             <div class="row">
                                 <div class="col-xs-2 col-sm-10 col-md-6">
                                     <div class="form-group">
