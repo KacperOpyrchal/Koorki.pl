@@ -11,7 +11,8 @@
             <h1>Dodaj nowe zlecenie</h1>
 
             {!! Form::open(['url' => 'foo/bar']) !!}
-
+                {{ Form::label('title', 'Title:')  }}
+                {{ Form::text('title', null, array('class' => 'form-control')) }}
             {!! Form::close() !!}
 
         </div>

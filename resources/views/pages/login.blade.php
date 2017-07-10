@@ -23,7 +23,9 @@
                     <input type="submit" value="Wyślij" class="btn btn-success">
                 </div>
 
-                <input type="submit" value="Zarejstruj sie" >
+                <a value="Zarejstruj się" class="btn btn-primary" href="/" > Zarejestruj się </a>
+
+
                 </form>
 
 
