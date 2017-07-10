@@ -46,7 +46,9 @@
                 <button type="submit" class="btn btn-default">Szukaj</button>
             </form>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Załóż konto</a></li>
+                <li><a href="/register">Załóż konto</a></li>
+
+
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                        aria-expanded="false">Konto <span class="caret"></span></a>
