@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-8 col-md-offset-2">
             <div class="jumbotron">
                 <h1> Witamy na Koorki.pl! :) </h1>
                 <p> Korki koreczki </p>
@@ -21,7 +21,7 @@
     <div class="row">
 
 
-        <div class="col-md-8">
+        <div class="col-md-6 col-md-offset-2">
             <div class="tasks">
                 <h3>Zlecenie</h3>
                 <p>imię:</p>

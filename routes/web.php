@@ -12,6 +12,8 @@ Route::get('/ranking', 'PagesController@getRanking');
 
 Route::get('/login', 'PagesController@getLogin');
 
+Route::resource('orders', 'OrderController');
+
 Route::get('users', function (){
     return User::all();
     /*return User::create([
