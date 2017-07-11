@@ -2,6 +2,11 @@
 
 @section('title', 'Dodaj')
 
+@section('stylesheets')
+    {!! Html::style('css/parsley.css') !!}
+@endsection
+
+
 @section('content')
 
     <div class="row">
@@ -10,7 +15,7 @@
 
             <h1>Dodaj nowe zlecenie</h1>
 
-            {!! Form::open(['route' => 'orders.store']) !!}
+            {!! Form::open(['route' => 'orders.store', 'data-parsley-validate' => '']) !!}
                 {{ Form::label('title', 'Tytuł:')  }}
                 {{ Form::text('title', null, array('class' => 'form-control')) }}
 
@@ -24,4 +29,8 @@
 
     </div>
 
+@endsection
+
+@section('scripts')
+{!! Html::script('js/parsley.min.js') !!}
 @endsection
