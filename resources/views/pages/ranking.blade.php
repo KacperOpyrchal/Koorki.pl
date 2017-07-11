@@ -34,6 +34,7 @@
 
 
 <h1>Główny Ranking</h1>
+<h6>http://fantasychallenge.euroleague.net/rankings.php wejdz kacper sobie tutaj moje konto pasy Karol97 to login hasło heat o czyms takim mysle o takim panelu </h6>
     <!DOCTYPE html>
     <html>
     <head>
