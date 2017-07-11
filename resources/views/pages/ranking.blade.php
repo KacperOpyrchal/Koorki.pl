@@ -52,29 +52,33 @@
         </style>
     </head>
     <body>
-    <p class="thick"> Tu będą wisiały rankingi, Kacper porzeba zrobić jakieś podgrupy do tych rankingów, żeby były z poszczególnych
-        przedmiotów
-        </p>
 
-    <div style="overflow-x:auto;">
-        <table>
-            <tr>
-                <th>Imię</th>
-                <th>Nazwisko</th>
-                <th>Nick</th>
-                <th>Wszystkie Punkty</th>
-            </tr>
-            <tr>
-
-            </tr>
-            <tr>
-
-            </tr>
-            <tr>
-
-            </tr>
-        </table>
-    </div>
+    <table class="table table-striped table-inverse">
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>Nick</th>
+            <th>Ilość Punktów</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>KarolSzawlis</td>
+            <td>123</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>KacperOpyrchał</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>ZbigniewNajder</td>
+            <td>92</td>
+        </tr>
+        </tbody>
+    </table>
 
     </body>
     </html>

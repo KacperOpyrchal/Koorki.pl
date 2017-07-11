@@ -28,6 +28,7 @@
                                         <input type="text" name="last_name" id="last_name" class="form-control input-sm" placeholder="Nazwisko:">
                                     </div>
                                 </div>
+
                             </div>
 
                             <div class="form-group">
