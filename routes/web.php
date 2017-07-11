@@ -14,6 +14,8 @@ Route::get('/login', 'PagesController@getLogin');
 
 Route::get('/register', 'PagesController@getRegister');
 
+Route::get('/HowItWorks','PagesController@getHowItWorks');
+
 Route::resource('orders', 'OrderController');
 
 Route::get('users', function (){

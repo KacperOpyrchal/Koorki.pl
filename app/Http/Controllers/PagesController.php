@@ -30,4 +30,7 @@ class PagesController extends Controller {
     public function getRegister(){
         return view('pages/register');
     }
+    public function getHowItWorks(){
+        return view('pages/HowItWorks');
+    }
 }

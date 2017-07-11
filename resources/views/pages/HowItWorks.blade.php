@@ -1,6 +1,6 @@
 @extends('main')
 
-@section('title', '| O nas')
+@section('title', '| Jak działa?')
 
 @section('content')
     <div class="row">
@@ -12,5 +12,5 @@
             <p>będziecie udostepniać również wiekszę zadania, projekty czy sprawozdania. Będziemy starali się zapewnić jak </p>
             <p>jak najlepszą jakoś świadczonych usług, nei pbieramy żadnych prowizji a ceny ustalacie wy. </p>
         </div>
-</div>
+    </div>
 @endsection
