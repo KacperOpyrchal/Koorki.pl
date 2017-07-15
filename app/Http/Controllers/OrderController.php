@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Order;
 use Illuminate\Http\Request;
+use Session;
 
 class OrderController extends Controller
 {
@@ -29,10 +30,14 @@ class OrderController extends Controller
 
         $order->save();
 
+        Session::flash('success', 'Zadanie zostało wysłane na market');
+
         return redirect()->route('orders.show', $order->id);
     }
 
     public function show($id){
+
+        return view('orders.show');
     }
 
     public function edit($id){

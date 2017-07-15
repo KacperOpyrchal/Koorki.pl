@@ -36,6 +36,7 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="/">Strona główna <span class="sr-only">(current)</span></a></li>
                 <li><a href="#">Kategorie</a></li>
+                <li><a href="/orders/create">Dodaj Zlecenie</a></li>
                 <li><a href="/ranking">Rankingi</a></li>
                 <li><a href="/HowItWorks">Jak działa?</a></li>
                 <li><a href="/contact">Kontakt</a></li>
@@ -69,6 +70,8 @@
 </nav>
 
 <div class="cotainer">
+
+    @include('partials._messages')
 
     @yield('content')
 
