@@ -25,7 +25,6 @@
         </div>
 
 
-
         <div class="col-md-2">
 
             <div class="sp2">
@@ -42,64 +41,39 @@
 
         <div class="row">
 
-            <div class = "col-md-20 col-md-offset-4">
+            <div class="col-md-20 col-md-offset-4">
 
                 <h1>Market</h1>
 
             </div>
 
-
-
-
-
-            <div class="panel panel-primary filterable">
-
+            <div class="panel panel-primary filterable table table-responsive">
                 <div class="panel-heading">
-
                     <h3 class="panel-title">Users</h3>
-
                     <div class="pull-right">
-
-                        <button class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-filter"></span> Filter</button>
-
+                        <button class="btn btn-default btn-xs btn-filter"><span
+                                    class="glyphicon glyphicon-filter"></span> Filter
+                        </button>
                     </div>
-
                 </div>
 
                 <table class="table">
-
                     <thead>
-
                     <tr class="filters">
 
                         <th><input type="text" class="form-control" placeholder="kategoria" disabled></th>
-
                         <th><input type="text" class="form-control" placeholder="poziom" disabled></th>
-
                         <th><input type="text" class="form-control" placeholder="nick" disabled></th>
-
                         <th><input type="text" class="form-control" placeholder="rodzaj" disabled></th>
-
                         <th><input type="text" class="form-control" placeholder="treść" disabled></th>
-
                         <th><input type="text" class="form-control" placeholder="kwota" disabled></th>
-
                         <th><input type="text" class="form-control" placeholder="kolejka" disabled></th>
-
                         <th><input type="text" class="form-control" placeholder="data ważności" disabled></th>
-
                         <th><input type="text" class="form-control" placeholder="dodatkowe informacje" disabled></th>
 
-
-
-
-
                     </tr>
-
                     </thead>
-
                     <tbody>
-
                     <tr>
 
                         <td>biologia</td>
@@ -167,13 +141,9 @@
                     </tr>
 
                     </tbody>
-
                 </table>
-
             </div>
-
         </div>
-
     </div>
 
 @endsection
