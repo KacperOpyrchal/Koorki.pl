@@ -4,9 +4,14 @@
 
 @section('title', '| Strona główna')
 
+@section('stylesheets')
 
+    <link rel="stylesheet" href="{{asset('css/toWelcome.css')}}" />
+
+@endsection
 
 @section('content')
+
 
     <div class="row">
 
@@ -57,93 +62,71 @@
                     </div>
                 </div>
 
-                <table class="table">
-                    <thead>
-                    <tr class="filters">
+                <div style="overflow-x:auto;">
+                    <table>
+                        <tr>
+                            <th>nick  </th>
+                            <th>poziom   </th>
+                            <th>kategoria </th>
+                            <th>rodzaj  </th>
+                            <th>treść </th>
+                            <th>cena</th>
+                            <th>kolejka  </th>
+                            <th>data ważności  </th>
+                            <th>dodatkowe informacje  </th>
+                            <th>  zgłoś się </th>
+                        </tr>
+                        <tr>
+                            <td>KarolSzawlis</td>
+                            <td>liceum</td>
+                            <td>matematyka</td>
+                            <td>zadanie</td>
+                            <td> <button> pokaż treść </button></td>
+                            <td>50</td>
+                            <td>todo</td>
+                            <td>22/12/2017</td>
+                            <td>matura rozszerzona</td>
+                            <td> <button> zgłoś się </button></td>
+                        </tr>
+                        <tr>
+                            <td>KacperOpyrchał</td>
+                            <td>gimnazjum</td>
+                            <td>język angielsi</td>
+                            <td>korepetycje</td>
+                            <td>------------------</td>
+                            <td>40</td>
+                            <td>todo</td>
+                            <td>01/09/2017</td>
+                            <td>odmiana to be</td>
+                            <td> <button> zgłoś się </button></td>
+                        </tr>
+                        <tr>
+                            <td>ZbigniewNajder</td>
+                            <td>studia licencjackie</td>
+                            <td>informatyka</td>
+                            <td>projekt</td>
+                            <td> <button> pokaż treść </button></td>
+                            <td>120</td>
+                            <td>todo</td>
+                            <td>12/02/2018</td>
+                            <td>programowanie w c++</td>
+                            <td> <button> zgłoś się </button></td>
+                        </tr>
+                        <tr>
+                            <td>DorotaNowak</td>
+                            <td>studia magisterkie</td>
+                            <td>matematyka</td>
+                            <td>zadanie</td>
+                            <td> <button> pokaż treść </button></td>
+                            <td>80</td>
+                            <td>todo</td>
+                            <td>11/07/2020</td>
+                            <td>mnożenie względem dodawania</td>
+                            <td> <button> zgłoś się </button></td>
+                        </tr>
 
-                        <th><input type="text" class="form-control" placeholder="kategoria" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="poziom" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="nick" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="rodzaj" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="treść" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="kwota" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="kolejka" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="data ważności" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="dodatkowe informacje" disabled></th>
 
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-
-                        <td>biologia</td>
-
-                        <td>rozszerzony</td>
-
-                        <td>KarolSzawlis</td>
-
-                        <td>korepetycje</td>
-
-                        <td>---</td>
-
-                        <td>35</td>
-
-                        <td>todo</td>
-
-                        <td>28/10/2017</td>
-
-                        <td>matura</td>
-
-                    </tr>
-
-                    <tr>
-
-                        <td>matematyka</td>
-
-                        <td>rozszerzony</td>
-
-                        <td>KacperOpyrchał</td>
-
-                        <td>projekt/zadanie</td>
-
-                        <td>tu będzię wychodzić guzik z załącznikiem</td>
-
-                        <td>20</td>
-
-                        <td>todo</td>
-
-                        <td>21/08/2017</td>
-
-                        <td>studia</td>
-
-                    </tr>
-
-                    <tr>
-
-                        <td>informatyka</td>
-
-                        <td>rozszerzony</td>
-
-                        <td>ZbigniewNajder</td>
-
-                        <td>projekt/zadanie</td>
-
-                        <td>tu będzie wychodzić guzik z załącznikiem</td>
-
-                        <td>70</td>
-
-                        <td>todo</td>
-
-                        <td>12/09/2017</td>
-
-                        <td>studia</td>
-
-                    </tr>
-
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
+                    </table>
+                </div>
 
 @endsection
