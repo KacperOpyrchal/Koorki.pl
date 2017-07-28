@@ -2,7 +2,7 @@
 
 use App\User;
 
-Route::get('/', 'PagesController@getIndex');
+Route::get('/', 'OrderController@index');
 
 Route::get('/contact', 'PagesController@getContact');
 

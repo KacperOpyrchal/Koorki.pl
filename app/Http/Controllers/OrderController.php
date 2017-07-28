@@ -2,14 +2,16 @@
 
 namespace App\Http\Controllers;
 
+use DB;
 use App\Order;
 use Illuminate\Http\Request;
 use Session;
 
 class OrderController extends Controller
 {
-
     public function index(){
+		$orders = DB::table('orders')->get();
+        return view('pages/welcome', ['orders' => $orders]);
     }
 
 
