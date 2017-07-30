@@ -70,7 +70,7 @@
     </div>
 </nav>
 
-<div class="cotainer">
+<div class="container">
 
     @include('partials._messages')
 
