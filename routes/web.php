@@ -20,9 +20,7 @@ Route::resource('orders', 'OrderController');
 
 Route::get('users', function (){
     return User::all();
-    /*return User::create([
-        "name" => "Karol",
-        "email" => "jakis@email.com",
-        "password" => bcrypt("jakieshaslo")
-    ]);*/
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
