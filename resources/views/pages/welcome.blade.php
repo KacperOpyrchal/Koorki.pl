@@ -38,12 +38,12 @@
                 </div>
                 <div class="row equal">
                     <div class="col-sm-12 center task"><p>{{$order->body}}
-                            <a href="#">...więcej</a></p>
+                        {{Html::link('orders/'.$order->id,'...więcej')}}
                     </div>
                 </div>
                 <div class="row def equal">
                     <div class="col-xs-6 center info-left">{{$order->created_at}}</div>
-                    <div class="col-xs-6 center info-right">39.99$
+                    <div class="col-xs-6 center info-right">{{$order->price}}$
                         <button class="report btn btn-success">zgłoś się</button>
                     </div>
                 </div>
